@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attandance</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 97vh;
+			background-image: url(newspaperbgrnd.jpg);
+			overflow: hidden;
+		}
+
+		.button {
+			background-color: rgb(3, 104, 1);
+			border: none;
+			border-radius: 10px;
+			color: white;
+			padding: 30px 42px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 10px 5px;
+			cursor: pointer;
+            transition: all 0.2s ease-in-out;
+		}
+        .button:hover {
+			cursor: pointer;
+            transform: scale(1.1);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<button class="button" onclick="window.open('https://docs.google.com/spreadsheets/d/e/2PACX-1vR0c9ND_Ikjxp4lo-7gxLogl9nV1ADrrc8CWT2NxPpyVgWK7eJZ6ev4ltmfYdR7KZgZAHNMEVREAb0x/pubhtml')"> 1st Year Bsc CS</button>
+		<button class="button">2nd Year Bsc CS</button>
+		<button class="button">3rd Year Bsc CS</button>
+        <button class="button" onclick="location.href ='Calculation.htm'">Calculate the percentage of your Attendance</button>
+	</div>
+</body>
+</html>
